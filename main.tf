@@ -4,7 +4,7 @@ data "terraform_remote_state" "global" {
   config = {
     organization = "Netnology-MINT"
     workspaces = {
-      name = var.globalwsname
+    name = var.globalwsname
     }
   }
 }
