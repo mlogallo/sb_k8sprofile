@@ -2,7 +2,7 @@
 data "terraform_remote_state" "global" {
   backend = "remote"
   config = {
-    organization = "5ef649637564612d33ef7c27"
+    organization = "Netnology-MINT"
     workspaces = {
       name = var.globalwsname
     }
